@@ -1,0 +1,142 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+nav img{
+    width: 250px;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    color: aqua;
+}
+#about{
+    color: black;
+}
+/*making section*/
+.making{
+width:70%;
+margin: 70px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.making h1{
+    color: aqua;
+}
+.making div{
+    display: flex;
+    gap: 20px;
+}
+.making p{
+    color: black;
+    font-size: 19px;
+}
+/*Cards Section*/
+.cards{
+    background-color: aqua;
+width: 70%;
+margin: 0  auto;
+display: flex;
+justify-content: space-between;
+}
+.card{
+    background-color: #00ccb1;
+    background-attachment: fixed;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+#card2{
+    background-color: #3d83df;
+}
+#card3{
+    background-color: #1b2734;
+}
+.card img{
+    width: 40px;
+}
+.card h1{
+    margin: 0;
+    color: white;
+}
+.card p{
+    font-size: 21px;
+    color: white;
+}
+button{
+    background-color: blue;
+    width: 25%;
+    height: 60%;
+    margin: 30px 5px;
+    color: white;
+    font size: 10px;
+}
+select{
+    background-color: transparent;
+    border: none;
+}
+#bogota{
+width:365px;
+}
+fin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    justify-content: space-between; 
+}
+/*global*/
+.global img{
+    width:100px;
+}
+.global{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.global div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 15px;
+}
+/*countries*/
+.countries{
+width: 70%;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.country{
+    width: 30%;
+}
+.country img{
+    width: 100%;
+}
+.country div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.country button{
+    background-color: #3d83df;
+    color: white;
+    width: 25%;
+    height: 60%;
+    margin: 30px 5px;
+    font-size: 10px;
+}
